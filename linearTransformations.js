@@ -225,6 +225,7 @@ function resetCanvas() {
 	// Reset shape
 	document.getElementById("defaultShape").checked = true;
 
+	newMatrix()
 	reScale(grid.scale, drawF);
 }
 
