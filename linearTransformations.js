@@ -198,7 +198,7 @@ function resetCanvas() {
 	var slider = document.getElementById("scaleSlider");
 	slider.value = grid.scale;
 
-	var cshape = "star";
+	cshape = "star";
 	transMat = [
 		[1, 0],
 		[0, 1],
@@ -341,7 +341,7 @@ function addCustom() {
 function newShape() {
 	// Update the new shape
 	cshape = document.querySelector('input[name="shapeOption"]:checked').value;
-
+	console.log(cshape);
 	reScale(grid.scale, drawF);
 }
 
@@ -358,6 +358,7 @@ document
 			element.setAttribute("onchange", "newShape();");
 		}
 	});
+
 
 function newTransformMat(newtrans) {
 	compose = document.getElementById("compose").checked;

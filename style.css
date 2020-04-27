@@ -159,6 +159,17 @@ body {
 }
 
 
+.appInput {
+    -moz-appearance: textfield;
+}
+/* This will hide number input spinners */
+/*.appInput::-webkit-outer-spin-button,
+.appInput::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}*/
+
+
 #transformlist {
 	font-size: 13px;
 }
