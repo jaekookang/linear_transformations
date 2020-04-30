@@ -172,6 +172,7 @@ var drawGrid = function () {
 		// Draw fixed grids
 		for (let i = minxgrid - 1; i <= maxxgrid + 1; i += inc) {
 			context.beginPath();
+			context.setLineDash([]);
 			context.moveTo(cx + i * grid.scale, 0);
 			context.lineTo(cx + i * grid.scale, ht);
 			context.stroke();
@@ -180,6 +181,7 @@ var drawGrid = function () {
 
 		for (let i = minygrid - 1; i <= maxygrid + 1; i += inc) {
 			context.beginPath();
+			context.setLineDash([]);
 			context.moveTo(0, cy - i * grid.scale);
 			context.lineTo(wd, cy - i * grid.scale);
 			context.stroke();
@@ -188,15 +190,19 @@ var drawGrid = function () {
 
 		// Draw transformed grids
 		if (!fixgrid) {
+			let dash = 2;
+			let transGridColor = graphcolor;
 			let x1, x2;
 			for (let i = minxgrid * 2 - 1; i <= maxxgrid * 2 + 1; i += inc) {
 				context.beginPath();
+				context.setLineDash([dash])
 				x1 = MatrixVectorProd(transMat, [i * grid.scale, ht]);
 				x2 = MatrixVectorProd(transMat, [i * grid.scale, -ht]);
 				x1 = [cx + x1[0], cy - x1[1]];
 				x2 = [cx + x2[0], cy - x2[1]];
 				context.moveTo(x1[0], x1[1]);
 				context.lineTo(x2[0], x2[1]);
+				context.strokeStyle = transGridColor;
 				context.stroke();
 				context.closePath();
 			}
@@ -204,12 +210,14 @@ var drawGrid = function () {
 			let y1, y2;
 			for (let i = minygrid * 2 - 1; i <= maxygrid * 2 + 1; i += inc) {
 				context.beginPath();
+				context.setLineDash([dash])
 				y1 = MatrixVectorProd(transMat, [-wd, i * grid.scale]);
 				y2 = MatrixVectorProd(transMat, [wd, i * grid.scale]);
 				y1 = [cx + y1[0], cy - y1[1]];
 				y2 = [cx + y2[0], cy - y2[1]];
 				context.moveTo(y1[0], y1[1]);
 				context.lineTo(y2[0], y2[1]);
+				context.strokeStyle = transGridColor;
 				context.stroke();
 				context.closePath();
 			}
@@ -221,12 +229,14 @@ var drawGrid = function () {
 	context.strokeStyle = grid.axiscolor;
 
 	context.beginPath();
+	context.setLineDash([]);
 	context.moveTo(cx, 0);
 	context.lineTo(cx, ht);
 	context.stroke();
 	context.closePath();
 
 	context.beginPath();
+	context.setLineDash([]);
 	context.moveTo(0, cy);
 	context.lineTo(wd, cy);
 	context.stroke();
