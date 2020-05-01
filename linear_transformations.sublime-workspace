@@ -1,1 +1,1273 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"plot_",
+				"plot_save_result_inn(…)\tfunction ⟠"
+			],
+			[
+				"num",
+				"num_tg"
+			],
+			[
+				"select",
+				"selectObject"
+			],
+			[
+				"tongue_",
+				"tongue_col"
+			],
+			[
+				"set_x",
+				"set_xlim"
+			],
+			[
+				"valid",
+				"valid_features"
+			],
+			[
+				"write",
+				"write_wav"
+			],
+			[
+				"Rt",
+				"RtAudioCallback"
+			],
+			[
+				"getDe",
+				"getDefaultInputDevice"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 8159,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "linearTransformations.js",
+			"settings":
+			{
+				"buffer_size": 14864,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "canvasGridConstruction.js",
+			"settings":
+			{
+				"buffer_size": 8248,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 3119,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"package ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"autopep",
+				"AutoPEP8: Format Code"
+			],
+			[
+				"autop",
+				"AutoPEP8: Format Code"
+			],
+			[
+				"js",
+				"JsPrettier: Format Code"
+			],
+			[
+				"ht",
+				"HTMLPrettify"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"jsp",
+				"JsPrettier: Format Code"
+			],
+			[
+				"jspre",
+				"JsPrettier: Format Code"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"jspr",
+				"JsPrettier: Format Code"
+			],
+			[
+				"form",
+				"JsPrettier: Format Code"
+			],
+			[
+				"format",
+				"JsPrettier: Format Code"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"auto",
+				"AutoPEP8: Format Code"
+			],
+			[
+				"autope",
+				"AutoPEP8: Format Code"
+			],
+			[
+				"kite",
+				"Kite: Engine Settings"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"autopep8",
+				"Preferences: AutoPep8 Settings – User"
+			],
+			[
+				"package remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"markdwn",
+				"Markdown Preview: Copy to Clipboard"
+			],
+			[
+				"",
+				"Bookmarks: Toggle"
+			],
+			[
+				"install pa",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 185.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jaegukang/GoogleDrive/GitHub/linear_transformations"
+	],
+	"file_history":
+	[
+		"/Users/jaegukang/GoogleDrive/GitHub/linear_transformations/.gitignore",
+		"/Users/jaegukang/GoogleDrive/GitHub/linear_transformations/linear_transformations.sublime-project",
+		"/Users/jaegukang/GoogleDrive/GitHub/linear_transformations/.flowconfig",
+		"/Users/jaegukang/GoogleDrive/GitHub/linear_transformations/canvasGridConstruction.js",
+		"/Users/jaegukang/GoogleDrive/GitHub/linear_transformations/linearTransformations.js",
+		"/Users/jaegukang/GoogleDrive/GitHub/linear_transformations/index.html",
+		"/Users/jaegukang/Desktop/tmp.py",
+		"/Users/jaegukang/GoogleDrive/_Project/_2018-10_-_Ultrasound_Compare_Metrics/AAA/data/2019-07-10_P6M_tracked/video02_first_frame_with_seed.wsp",
+		"/Volumes/Transcend/Dataset/Haskins_IEEE_Rate_Comparison_DB/F01/README.txt",
+		"/Volumes/Transcend/Dataset/Haskins_IEEE_Rate_Comparison_DB/F03/README.txt",
+		"/Volumes/Transcend/Dataset/Haskins_IEEE_Rate_Comparison_DB/F04/README.txt",
+		"/Users/jaegukang/GoogleDrive/GitHub/linear_transformations/style.css",
+		"/Users/jaegukang/GoogleDrive/_Jaekoo/namz_server/password_2020_05.txt",
+		"/Users/jaegukang/Desktop/linear_transformations/index.html",
+		"/Users/jaegukang/Desktop/lwilliams/Linear Transformations.html",
+		"/Users/jaegukang/Desktop/linear_transformations/style.css",
+		"/Users/jaegukang/Desktop/linear_transformations/mathLib.js",
+		"/Users/jaegukang/Desktop/linear_transformations/canvasGridConstruction.js",
+		"/Users/jaegukang/Desktop/linear_transformations/linearTransformations.js",
+		"/Users/jaegukang/Desktop/linear_transformations/index.php",
+		"/Users/jaegukang/Desktop/installer",
+		"/Users/jaegukang/Desktop/lwilliams/Linear Transformations_files/canvasGridConstruction.js",
+		"/Users/jaegukang/Desktop/lwilliams/Linear Transformations_files/linearTransformations.js",
+		"/Users/jaegukang/Desktop/lwilliams/Linear Transformations_files/mathLib.js",
+		"/Users/jaegukang/Desktop/lwilliams/Linear Transformations_files/applets17.css",
+		"/Users/jaegukang/Desktop/lwilliams/Linear Transformations_files/style17.css",
+		"/Users/jaegukang/Library/Application Support/Sublime Text 3/Packages/JsPrettier/JsPrettier.sublime-settings",
+		"/Users/jaegukang/Desktop/lwilliams/Linear Transformations_files/css",
+		"/Users/jaegukang/GoogleDrive/_Project/2018_UCM_Flow/1_docs/IEEE/refs/aip_jas120_3293.bib",
+		"/Users/jaegukang/GoogleDrive/_Project/2018_UCM_Flow/1_docs/IEEE/refs/aip_jas141_3580.bib",
+		"/Users/jaegukang/GoogleDrive/_Project/2018_UCM_Flow/1_docs/IEEE/refs/aip_jas146_3085.bib",
+		"/Volumes/Transcend/Dataset/Haskins_IEEE_Rate_Comparison_DB/README.txt",
+		"/Users/jaegukang/Desktop/TMP.js",
+		"/Users/jaegukang/GoogleDrive/_Project/2019-09_Reaching/online-testing-4_14_20/html/onlineBuildup.js",
+		"/Users/jaegukang/GoogleDrive/_Project/2019-09_Reaching/online-testing-4_14_20/html/index.html",
+		"/Users/jaegukang/Desktop/onlineBuildup.js",
+		"/Users/jaegukang/GoogleDrive/GitHub/audapter_jaekoo/README.md",
+		"/Users/jaegukang/GoogleDrive/_Project/2019-09_Reaching/online-testing-4_14_20/html/lib/core-2020.1.js",
+		"/Users/jaegukang/GoogleDrive/_Project/2019-09_Reaching/online-testing-4_14_20/html/lib/util-2020.1.js",
+		"/Users/jaegukang/GoogleDrive/_Project/2019-09_Reaching/online-testing-4_14_20/html/onlineBuildup-legacy-browsers.js",
+		"/Users/jaegukang/Desktop/arcsin/draw_arcsin.py",
+		"/Users/jaegukang/GoogleDrive/_Project/2019-09_Reaching/README.md",
+		"/Users/jaegukang/.zshrc",
+		"/Users/jaegukang/Desktop/docker_guide.md",
+		"/Users/jaegukang/GoogleDrive/GitHub/pitch_net/jk_docker_guide.md",
+		"/Users/jaegukang/Library/Application Support/iTerm2/DynamicProfiles/Profiles.json",
+		"/Users/jaegukang/GoogleDrive/_Jaekoo/namz_server/set_sshkey.md",
+		"/Users/jaegukang/GoogleDrive/_Jaekoo/namz_server/password_2020_04.txt",
+		"/Users/jaegukang/GoogleDrive/_CUNY/_TAX/curr2020_tax_2019-2020/README.md",
+		"/Users/jaegukang/GoogleDrive/GitHub/tfjs_yarn_examples/tfjs_load_model_from_local/package.json",
+		"/Users/jaegukang/GoogleDrive/GitHub/tfjs_yarn_examples/tfjs_load_model_from_local/yarn.lock",
+		"/Users/jaegukang/GoogleDrive/GitHub/tfjs_yarn_examples/tfjs_load_model_from_local/yarn-error.log",
+		"/Users/jaegukang/GoogleDrive/GitHub/tfjs_yarn_examples/tfjs_load_model_from_url/yarn.lock",
+		"/Users/jaegukang/GoogleDrive/GitHub/tfjs_yarn_examples/tfjs_load_model_from_url/package.json",
+		"/Users/jaegukang/GoogleDrive/GitHub/tfjs_yarn_examples/.gitignore",
+		"/Users/jaegukang/GoogleDrive/GitHub/tfjs_yarn_examples/tfjs_load_model_from_url/index.html",
+		"/Users/jaegukang/GoogleDrive/GitHub/tfjs_yarn_examples/tfjs_load_model_from_url/index.js",
+		"/Users/jaegukang/Downloads/Inference_2020-04-13/log.txt",
+		"/Users/jaegukang/Downloads/Inference_Recon/log.txt",
+		"/Users/jaegukang/Downloads/Inference_2020-04-11/log.txt",
+		"/Users/jaegukang/Downloads/Inference_2020-04-13/log copy.txt",
+		"/Users/jaegukang/Downloads/Inference_2020-04-13/Hyper_Parameters.json",
+		"/Users/jaegukang/Desktop/lwilliams/Transformations of Trigonometric Functions_files/trigTransformations.js",
+		"/Users/jaegukang/Desktop/lwilliams/Transformations of Trigonometric Functions.html",
+		"/Users/jaegukang/Desktop/lwilliams/Transformations of Trigonometric Functions_files/mathLib.js",
+		"/Users/jaegukang/Desktop/lwilliams/Transformations of Trigonometric Functions_files/canvasGridConstruction.js",
+		"/Users/jaegukang/Desktop/lwilliams/Transformations of Trigonometric Functions_files/js",
+		"/Users/jaegukang/Desktop/lwilliams/Graphing Rational Functions Applet.html",
+		"/Users/jaegukang/Desktop/Function Transformations Applet_files/Function Transformations Applet_files/applets17.css",
+		"/Users/jaegukang/Desktop/Function Transformations Applet_files/Function Transformations Applet_files/style17.css",
+		"/Users/jaegukang/Desktop/Function Transformations Applet_files/Function Transformations Applet.html",
+		"/Users/jaegukang/Desktop/Function Transformations Applet_files/Function Transformations Applet_files/js",
+		"/Users/jaegukang/anaconda3/share/jupyter/lab/staging/yarn.js",
+		"/Users/jaegukang/Desktop/Function Transformations Applet_files/Function Transformations Applet_files/raphael-min.js",
+		"/Users/jaegukang/Library/Application Support/Sublime Text 3/Installed Packages/Color Highlighter.sublime-package",
+		"/Users/jaegukang/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/jaegukang/Desktop/Function Transformations Applet_files/Function Transformations Applet_files/css",
+		"/Users/jaegukang/Desktop/Function Transformations Applet_files/Function Transformations Applet_files/MathJax.js",
+		"/Users/jaegukang/Desktop/videos/sync.sh",
+		"/Users/jaegukang/Desktop/videos/README.md",
+		"/Users/jaegukang/Downloads/Inference/Hyper_Parameters.json",
+		"/Users/jaegukang/Downloads/Inference/log.txt",
+		"/Users/jaegukang/Desktop/pitchnet_2020-03-08/audio.py",
+		"/Users/jaegukang/GoogleDrive/GitHub/ucm_gem_analysis/.gitignore",
+		"/Users/jaegukang/Desktop/psychopy_test/html/test.js",
+		"/Users/jaegukang/Desktop/lexical_decision_task/html/index.html",
+		"/Users/jaegukang/Desktop/lexical_decision_task/html/ldt.js",
+		"/Users/jaegukang/Desktop/lexical_decision_task/html/ldtNoModule.js",
+		"/Users/jaegukang/GoogleDrive/GitHub/ucm_gem_analysis/data/IEEE/data/F01_log.txt",
+		"/Users/jaegukang/GoogleDrive/GitHub/ucm_gem_analysis/data/IEEE/data/F03_log.txt",
+		"/Users/jaegukang/GoogleDrive/GitHub/ucm_gem_analysis/data/IEEE/data/F02_log.txt",
+		"/Users/jaegukang/GoogleDrive/GitHub/ucm_gem_analysis/tools/feature_extractor.py",
+		"/Users/jaegukang/GoogleDrive/_Haskins/jaekoo_ema_practice/2020-02-16_jaekoo_ema_us_on_jaekoo/extract.py",
+		"/Users/jaegukang/GoogleDrive/GitHub/ucm_gem_analysis/data/IEEE/data/test.txt",
+		"/Volumes/Transcend/Dataset/Haskins_IEEE_Rate_Comparison_DB/F01/TextGrids/F01_B12_S60_R01_F.TextGrid",
+		"/Users/jaegukang/GoogleDrive/GitHub/ucm_gem_analysis/data/IEEE/meta/IEEE_gloss.txt",
+		"/Users/jaegukang/GoogleDrive/GitHub/ucm_gem_analysis/data/IEEE/data/extract.py",
+		"/Users/jaegukang/GoogleDrive/GitHub/ucm_haskins_dataset/analysis/prev/extract.py",
+		"/Users/jaegukang/GoogleDrive/GitHub/ucm_gem_analysis/tools/get_reference.praat",
+		"/Users/jaegukang/GoogleDrive/_Praat/scripts/acoustic_extractor/acoustics1.5/mac/acoustics1.5.praat",
+		"/Users/jaegukang/GoogleDrive/GitHub/ucm_gem_analysis/tools/get_reference_by_filename.praat",
+		"/Users/jaegukang/GoogleDrive/GitHub/pitch_net/modules.py",
+		"/Users/jaegukang/GoogleDrive/GitHub/ucm_haskins_dataset/data/2017-10-12_04-22-15/result.txt",
+		"/Users/jaegukang/GoogleDrive/_Haskins/jaekoo_ema_practice/py_tools/get_formants.py",
+		"/Users/jaegukang/GoogleDrive/GitHub/ucm_gem_analysis/tools/get_formants.py",
+		"/Users/jaegukang/Downloads/PitchNet_v2/Pattern_Generator.py",
+		"/Users/jaegukang/Downloads/PitchNet_v2/Hyper_Parameters.json",
+		"/Users/jaegukang/Downloads/PitchNet_v2/Model.py",
+		"/Users/jaegukang/Downloads/PitchNet/Hyper_Parameters.json",
+		"/Users/jaegukang/Downloads/PitchNet/Model.py",
+		"/Users/jaegukang/Downloads/PitchNet_v2/Feeder.py",
+		"/Users/jaegukang/Desktop/architecture.md",
+		"/Users/jaegukang/GoogleDrive/_Jaekoo/namz_server/password_2020_03.txt",
+		"/Users/jaegukang/Library/Application Support/iTerm2/DynamicProfiles/Profiles_.json",
+		"/Users/jaegukang/Desktop/Apple.json",
+		"/Users/jaegukang/Desktop/zshrc",
+		"/Users/jaegukang/.ssh/known_hosts",
+		"/Users/jaegukang/GoogleDrive/_Jaekoo/namz_server/get_passwd_almond.command",
+		"/Users/jaegukang/Desktop/aip_jas118_1636.bib",
+		"/Users/jaegukang/Desktop/videos/listings-setup.tex",
+		"/Users/jaegukang/GoogleDrive/_Haskins/jaekoo_ema_practice/2020-02-16_jaekoo_ema_us_on_jaekoo/expt/test_17FEB20.xml",
+		"/Users/jaegukang/Desktop/03_flow_model.py",
+		"/Users/jaegukang/Desktop/03_flow_model (1).py",
+		"/Users/jaegukang/GoogleDrive/GitHub/ucm_gem_analysis/README.md",
+		"/Users/jaegukang/GoogleDrive/GitHub/ucm_gem_analysis/log.md",
+		"/Users/jaegukang/GoogleDrive/GitHub/ucm_gem_analysis/tools/plots.py",
+		"/Users/jaegukang/GoogleDrive/_Haskins/jaekoo_ema_practice/py_tools/get_formants.praat",
+		"/Users/jaegukang/GoogleDrive/_Haskins/jaekoo_ema_practice/py_tools/feature_extractor.py"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 113.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"fixgrid",
+			"gridColor",
+			"graphcolor",
+			"originalstrokecolor"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8159,
+						"regions":
+						{
+							"col_FFFFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										7486,
+										7491
+									],
+									[
+										7653,
+										7658
+									]
+								],
+								"scope": "col_FFFFFFFF"
+							},
+							"col_FFFFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
+								"regions":
+								[
+									[
+										7394,
+										7394
+									],
+									[
+										7566,
+										7566
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								848,
+								848
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 514.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "linearTransformations.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14864,
+						"regions":
+						{
+							"col_3FA7924C":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1144,
+										1167
+									]
+								],
+								"scope": "col_3FA7924C"
+							},
+							"col_3FA7924C_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_3FA7924C_circle.png",
+								"regions":
+								[
+									[
+										1127,
+										1127
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_3FA792E5":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1101,
+										1124
+									]
+								],
+								"scope": "col_3FA792E5"
+							},
+							"col_3FA792E5_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_3FA792E5_circle.png",
+								"regions":
+								[
+									[
+										1083,
+										1083
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_555555FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										874,
+										878
+									],
+									[
+										4725,
+										4729
+									]
+								],
+								"scope": "col_555555FF"
+							},
+							"col_555555FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_555555FF_circle.png",
+								"regions":
+								[
+									[
+										861,
+										861
+									],
+									[
+										4711,
+										4711
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_5A5A5A4C":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1191,
+										1212
+									]
+								],
+								"scope": "col_5A5A5A4C"
+							},
+							"col_5A5A5A4C_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_5A5A5A4C_circle.png",
+								"regions":
+								[
+									[
+										1170,
+										1170
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_817F4FCC":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1292,
+										1315
+									]
+								],
+								"scope": "col_817F4FCC"
+							},
+							"col_817F4FCC_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_817F4FCC_circle.png",
+								"regions":
+								[
+									[
+										1265,
+										1265
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_888888FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										952,
+										956
+									],
+									[
+										4805,
+										4809
+									]
+								],
+								"scope": "col_888888FF"
+							},
+							"col_888888FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_888888FF_circle.png",
+								"regions":
+								[
+									[
+										938,
+										938
+									],
+									[
+										4790,
+										4790
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_99774444":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										6548,
+										6553
+									],
+									[
+										6667,
+										6672
+									],
+									[
+										6812,
+										6817
+									],
+									[
+										10052,
+										10057
+									],
+									[
+										10171,
+										10176
+									],
+									[
+										10316,
+										10321
+									]
+								],
+								"scope": "col_99774444"
+							},
+							"col_99774444_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_99774444_circle.png",
+								"regions":
+								[
+									[
+										6541,
+										6541
+									],
+									[
+										6660,
+										6660
+									],
+									[
+										6805,
+										6805
+									],
+									[
+										10045,
+										10045
+									],
+									[
+										10164,
+										10164
+									],
+									[
+										10309,
+										10309
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_99774455":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										6508,
+										6513
+									],
+									[
+										6615,
+										6620
+									],
+									[
+										6767,
+										6772
+									],
+									[
+										10012,
+										10017
+									],
+									[
+										10119,
+										10124
+									],
+									[
+										10271,
+										10276
+									]
+								],
+								"scope": "col_99774455"
+							},
+							"col_99774455_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_99774455_circle.png",
+								"regions":
+								[
+									[
+										6501,
+										6501
+									],
+									[
+										6608,
+										6608
+									],
+									[
+										6760,
+										6760
+									],
+									[
+										10005,
+										10005
+									],
+									[
+										10112,
+										10112
+									],
+									[
+										10264,
+										10264
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_CCCCCCFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										764,
+										768
+									],
+									[
+										4613,
+										4617
+									]
+								],
+								"scope": "col_CCCCCCFF"
+							},
+							"col_CCCCCCFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_CCCCCCFF_circle.png",
+								"regions":
+								[
+									[
+										751,
+										751
+									],
+									[
+										4599,
+										4599
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_F6FED77F":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1240,
+										1262
+									]
+								],
+								"scope": "col_F6FED77F"
+							},
+							"col_F6FED77F_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_F6FED77F_circle.png",
+								"regions":
+								[
+									[
+										1215,
+										1215
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								1439,
+								1439
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 853.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "canvasGridConstruction.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8248,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4260,
+								4267
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3835.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3119,
+						"regions":
+						{
+							"col_000000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2270,
+										2274
+									],
+									[
+										2443,
+										2447
+									]
+								],
+								"scope": "col_000000FF"
+							},
+							"col_000000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_000000FF_circle.png",
+								"regions":
+								[
+									[
+										2248,
+										2248
+									],
+									[
+										2421,
+										2421
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_595959FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										156,
+										163
+									],
+									[
+										1564,
+										1571
+									],
+									[
+										1780,
+										1787
+									]
+								],
+								"scope": "col_595959FF"
+							},
+							"col_595959FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_595959FF_circle.png",
+								"regions":
+								[
+									[
+										143,
+										143
+									],
+									[
+										1556,
+										1556
+									],
+									[
+										1772,
+										1772
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_669199FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										134,
+										141
+									]
+								],
+								"scope": "col_669199FF"
+							},
+							"col_669199FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_669199FF_circle.png",
+								"regions":
+								[
+									[
+										120,
+										120
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_90A095FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										111,
+										118
+									]
+								],
+								"scope": "col_90A095FF"
+							},
+							"col_90A095FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_90A095FF_circle.png",
+								"regions":
+								[
+									[
+										96,
+										96
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_D1D1D1FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										203,
+										210
+									],
+									[
+										1443,
+										1450
+									]
+								],
+								"scope": "col_D1D1D1FF"
+							},
+							"col_D1D1D1FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_D1D1D1FF_circle.png",
+								"regions":
+								[
+									[
+										188,
+										188
+									],
+									[
+										1425,
+										1425
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_DD7373FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										87,
+										94
+									]
+								],
+								"scope": "col_DD7373FF"
+							},
+							"col_DD7373FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_DD7373FF_circle.png",
+								"regions":
+								[
+									[
+										76,
+										76
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_EAEAEAFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										226,
+										233
+									]
+								],
+								"scope": "col_EAEAEAFF"
+							},
+							"col_EAEAEAFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_EAEAEAFF_circle.png",
+								"regions":
+								[
+									[
+										212,
+										212
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FCF8B3FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										179,
+										186
+									]
+								],
+								"scope": "col_FCF8B3FF"
+							},
+							"col_FCF8B3FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FCF8B3FF_circle.png",
+								"regions":
+								[
+									[
+										165,
+										165
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFE4C4FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										924,
+										930
+									]
+								],
+								"scope": "col_FFE4C4FF"
+							},
+							"col_FFE4C4FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFE4C4FF_circle.png",
+								"regions":
+								[
+									[
+										902,
+										902
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFFFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										70,
+										74
+									],
+									[
+										2619,
+										2624
+									]
+								],
+								"scope": "col_FFFFFFFF"
+							},
+							"col_FFFFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
+								"regions":
+								[
+									[
+										60,
+										60
+									],
+									[
+										2600,
+										2600
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 150.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "linear_transformations.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 258.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
