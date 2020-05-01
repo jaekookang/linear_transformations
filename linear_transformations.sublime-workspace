@@ -47,31 +47,31 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 8159,
+				"buffer_size": 8290,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "linearTransformations.js",
+			"file": "js/linearTransformations.js",
 			"settings":
 			{
-				"buffer_size": 14864,
+				"buffer_size": 16583,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "canvasGridConstruction.js",
+			"file": "js/canvasGridConstruction.js",
 			"settings":
 			{
-				"buffer_size": 8248,
+				"buffer_size": 8479,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "style.css",
+			"file": "css/style.css",
 			"settings":
 			{
 				"buffer_size": 3119,
@@ -91,6 +91,14 @@
 		"selected_items":
 		[
 			[
+				"js",
+				"JsPrettier: Format Code"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
 				"package ins",
 				"Package Control: Install Package"
 			],
@@ -107,15 +115,7 @@
 				"AutoPEP8: Format Code"
 			],
 			[
-				"js",
-				"JsPrettier: Format Code"
-			],
-			[
 				"ht",
-				"HTMLPrettify"
-			],
-			[
-				"html",
 				"HTMLPrettify"
 			],
 			[
@@ -211,22 +211,25 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/jaegukang/GoogleDrive/GitHub/linear_transformations"
+		"/Users/jaegukang/GoogleDrive/GitHub/linear_transformations",
+		"/Users/jaegukang/GoogleDrive/GitHub/linear_transformations/css",
+		"/Users/jaegukang/GoogleDrive/GitHub/linear_transformations/js"
 	],
 	"file_history":
 	[
+		"/private/tmp/flow/flowlib_290e7ebc/core.js",
+		"/Users/jaegukang/GoogleDrive/GitHub/linear_transformations/style.css",
+		"/Users/jaegukang/GoogleDrive/GitHub/linear_transformations/canvasGridConstruction.js",
+		"/Users/jaegukang/GoogleDrive/GitHub/linear_transformations/linearTransformations.js",
 		"/Users/jaegukang/GoogleDrive/GitHub/linear_transformations/.gitignore",
 		"/Users/jaegukang/GoogleDrive/GitHub/linear_transformations/linear_transformations.sublime-project",
 		"/Users/jaegukang/GoogleDrive/GitHub/linear_transformations/.flowconfig",
-		"/Users/jaegukang/GoogleDrive/GitHub/linear_transformations/canvasGridConstruction.js",
-		"/Users/jaegukang/GoogleDrive/GitHub/linear_transformations/linearTransformations.js",
 		"/Users/jaegukang/GoogleDrive/GitHub/linear_transformations/index.html",
 		"/Users/jaegukang/Desktop/tmp.py",
 		"/Users/jaegukang/GoogleDrive/_Project/_2018-10_-_Ultrasound_Compare_Metrics/AAA/data/2019-07-10_P6M_tracked/video02_first_frame_with_seed.wsp",
 		"/Volumes/Transcend/Dataset/Haskins_IEEE_Rate_Comparison_DB/F01/README.txt",
 		"/Volumes/Transcend/Dataset/Haskins_IEEE_Rate_Comparison_DB/F03/README.txt",
 		"/Volumes/Transcend/Dataset/Haskins_IEEE_Rate_Comparison_DB/F04/README.txt",
-		"/Users/jaegukang/GoogleDrive/GitHub/linear_transformations/style.css",
 		"/Users/jaegukang/GoogleDrive/_Jaekoo/namz_server/password_2020_05.txt",
 		"/Users/jaegukang/Desktop/linear_transformations/index.html",
 		"/Users/jaegukang/Desktop/lwilliams/Linear Transformations.html",
@@ -341,8 +344,7 @@
 		"/Users/jaegukang/GoogleDrive/GitHub/ucm_gem_analysis/README.md",
 		"/Users/jaegukang/GoogleDrive/GitHub/ucm_gem_analysis/log.md",
 		"/Users/jaegukang/GoogleDrive/GitHub/ucm_gem_analysis/tools/plots.py",
-		"/Users/jaegukang/GoogleDrive/_Haskins/jaekoo_ema_practice/py_tools/get_formants.praat",
-		"/Users/jaegukang/GoogleDrive/_Haskins/jaekoo_ema_practice/py_tools/feature_extractor.py"
+		"/Users/jaegukang/GoogleDrive/_Haskins/jaekoo_ema_practice/py_tools/get_formants.praat"
 	],
 	"find":
 	{
@@ -360,6 +362,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"n_samples",
+			"multivariate_normal",
+			"originalfillcolor",
+			"drawF(",
+			"drawF",
+			"shape",
+			"fixgrid",
+			"grid",
 			"fixgrid",
 			"gridColor",
 			"graphcolor",
@@ -381,7 +391,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -390,7 +400,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8159,
+						"buffer_size": 8290,
 						"regions":
 						{
 							"col_FFFFFFFF":
@@ -399,12 +409,12 @@
 								"regions":
 								[
 									[
-										7486,
-										7491
+										7605,
+										7610
 									],
 									[
-										7653,
-										7658
+										7772,
+										7777
 									]
 								],
 								"scope": "col_FFFFFFFF"
@@ -416,12 +426,12 @@
 								"regions":
 								[
 									[
-										7394,
-										7394
+										7513,
+										7513
 									],
 									[
-										7566,
-										7566
+										7685,
+										7685
 									]
 								],
 								"scope": "col_gutter"
@@ -430,8 +440,8 @@
 						"selection":
 						[
 							[
-								848,
-								848
+								3301,
+								3313
 							]
 						],
 						"settings":
@@ -440,22 +450,47 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 514.0,
+						"translation.x": 262.0,
+						"translation.y": 872.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "linearTransformations.js",
+					"file": "js/linearTransformations.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14864,
+						"buffer_size": 16583,
 						"regions":
 						{
+							"col_228B22FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										4393,
+										4400
+									]
+								],
+								"scope": "col_228B22FF"
+							},
+							"col_228B22FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_228B22FF_circle.png",
+								"regions":
+								[
+									[
+										4370,
+										4370
+									]
+								],
+								"scope": "col_gutter"
+							},
 							"col_3FA7924C":
 							{
 								"flags": 16,
@@ -516,8 +551,8 @@
 										878
 									],
 									[
-										4725,
-										4729
+										5488,
+										5492
 									]
 								],
 								"scope": "col_555555FF"
@@ -533,8 +568,8 @@
 										861
 									],
 									[
-										4711,
-										4711
+										5474,
+										5474
 									]
 								],
 								"scope": "col_gutter"
@@ -560,6 +595,31 @@
 									[
 										1170,
 										1170
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_8080807F":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										3239,
+										3260
+									]
+								],
+								"scope": "col_8080807F"
+							},
+							"col_8080807F_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_8080807F_circle.png",
+								"regions":
+								[
+									[
+										3216,
+										3216
 									]
 								],
 								"scope": "col_gutter"
@@ -599,8 +659,8 @@
 										956
 									],
 									[
-										4805,
-										4809
+										5568,
+										5572
 									]
 								],
 								"scope": "col_888888FF"
@@ -616,8 +676,8 @@
 										938
 									],
 									[
-										4790,
-										4790
+										5553,
+										5553
 									]
 								],
 								"scope": "col_gutter"
@@ -628,28 +688,28 @@
 								"regions":
 								[
 									[
-										6548,
-										6553
+										7503,
+										7508
 									],
 									[
-										6667,
-										6672
+										7622,
+										7627
 									],
 									[
-										6812,
-										6817
+										7767,
+										7772
 									],
 									[
-										10052,
-										10057
+										11771,
+										11776
 									],
 									[
-										10171,
-										10176
+										11890,
+										11895
 									],
 									[
-										10316,
-										10321
+										12035,
+										12040
 									]
 								],
 								"scope": "col_99774444"
@@ -661,28 +721,28 @@
 								"regions":
 								[
 									[
-										6541,
-										6541
+										7496,
+										7496
 									],
 									[
-										6660,
-										6660
+										7615,
+										7615
 									],
 									[
-										6805,
-										6805
+										7760,
+										7760
 									],
 									[
-										10045,
-										10045
+										11764,
+										11764
 									],
 									[
-										10164,
-										10164
+										11883,
+										11883
 									],
 									[
-										10309,
-										10309
+										12028,
+										12028
 									]
 								],
 								"scope": "col_gutter"
@@ -693,28 +753,28 @@
 								"regions":
 								[
 									[
-										6508,
-										6513
+										7463,
+										7468
 									],
 									[
-										6615,
-										6620
+										7570,
+										7575
 									],
 									[
-										6767,
-										6772
+										7722,
+										7727
 									],
 									[
-										10012,
-										10017
+										11731,
+										11736
 									],
 									[
-										10119,
-										10124
+										11838,
+										11843
 									],
 									[
-										10271,
-										10276
+										11990,
+										11995
 									]
 								],
 								"scope": "col_99774455"
@@ -726,28 +786,28 @@
 								"regions":
 								[
 									[
-										6501,
-										6501
+										7456,
+										7456
 									],
 									[
-										6608,
-										6608
+										7563,
+										7563
 									],
 									[
-										6760,
-										6760
+										7715,
+										7715
 									],
 									[
-										10005,
-										10005
+										11724,
+										11724
 									],
 									[
-										10112,
-										10112
+										11831,
+										11831
 									],
 									[
-										10264,
-										10264
+										11983,
+										11983
 									]
 								],
 								"scope": "col_gutter"
@@ -762,8 +822,8 @@
 										768
 									],
 									[
-										4613,
-										4617
+										5376,
+										5380
 									]
 								],
 								"scope": "col_CCCCCCFF"
@@ -779,8 +839,8 @@
 										751
 									],
 									[
-										4599,
-										4599
+										5362,
+										5362
 									]
 								],
 								"scope": "col_gutter"
@@ -814,8 +874,8 @@
 						"selection":
 						[
 							[
-								1439,
-								1439
+								6710,
+								6710
 							]
 						],
 						"settings":
@@ -825,45 +885,45 @@
 							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
 						},
 						"translation.x": 0.0,
-						"translation.y": 853.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "canvasGridConstruction.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8248,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4260,
-								4267
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false,
-							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
-						},
-						"translation.x": 0.0,
-						"translation.y": 3835.0,
+						"translation.y": 5034.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
+					"buffer": 2,
+					"file": "js/canvasGridConstruction.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8479,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1706,
+								1714
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
 					"buffer": 3,
-					"file": "style.css",
+					"file": "css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
@@ -1164,8 +1224,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								1983,
+								1987
 							]
 						],
 						"settings":
@@ -1175,10 +1235,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1862.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
