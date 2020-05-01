@@ -52,18 +52,13 @@ var slider = document.getElementById("scaleSlider");
 
 slider.oninput = function () {
 	// From scale slider inputs, this rescales both grids and the image
+	//  `reScale()` --> `drawGrid()` & `drawF()`
 	reScale(this.value, drawF);
-	// `reScale()` --> `drawGrid()` & `drawF()`
-};
-
-var checkbox = document.getElementById("fixgrid");
-var fixgrid = checkbox.checked;
-checkbox.onclick = function () {
-	// This checks if "Fix grids" check box is checked or not
-	fixgrid = this.checked;
 };
 
 // Shape examples to use
+var n_samples = 50;
+var randomSamples = multivariate_normal(n_samples);
 var shapes = {
 	square: {
 		orig: [
@@ -105,10 +100,10 @@ var shapes = {
 		],
 		flip: false,
 	},
-	custom: {
-		orig: [],
+	random: {
+		orig: randomSamples,
 		flip: false,
-	}
+	},
 };
 
 var cshape = "star";
@@ -124,44 +119,73 @@ function drawF() {
 	// This is used as 2nd arg for reScale() as `oncomplete()` function
 
 	// Original image
-	context.lineWidth = "1";
-	context.strokeStyle = originalstrokecolor;
-	context.fillStyle = originalfillcolor;
+	if (cshape !== "random") {
+		context.lineWidth = "1";
+		context.strokeStyle = originalstrokecolor;
+		context.fillStyle = originalfillcolor;
 
-	context.beginPath();
+		context.beginPath();
 
-	let o1 = shapes[cshape].orig[0];
+		let o1 = shapes[cshape].orig[0];
 
-	context.moveTo(cx + o1[0] * grid.scale, cy - o1[1] * grid.scale);
-	for (let i = 1; i < shapes[cshape].orig.length; i++) {
-		let o = shapes[cshape].orig[i];
-		context.lineTo(cx + o[0] * grid.scale, cy - o[1] * grid.scale);
+		context.moveTo(cx + o1[0] * grid.scale, cy - o1[1] * grid.scale);
+		for (let i = 1; i < shapes[cshape].orig.length; i++) {
+			let o = shapes[cshape].orig[i];
+			context.lineTo(cx + o[0] * grid.scale, cy - o[1] * grid.scale);
+		}
+		context.lineTo(cx + o1[0] * grid.scale, cy - o1[1] * grid.scale);
+		context.lineJoin = "round";
+		context.stroke();
+		context.fill();
+		context.closePath();
+	} else {
+		// if shape is "random"
+		let pointSize = 3;
+		context.fillStyle = 'rgba(128,128,128,0.5)';
+		let x, y;
+		for (var i=0; i < shapes[cshape].orig.length; i++) {
+			x = cx + shapes[cshape].orig[i][0] * grid.scale;
+			y = cy - shapes[cshape].orig[i][1] * grid.scale;
+			context.beginPath();
+			context.arc(x, y, pointSize, 0, Math.PI * 2, true);
+			context.fill();
+		}
 	}
-	context.lineTo(cx + o1[0] * grid.scale, cy - o1[1] * grid.scale);
-	context.lineJoin = "round";
-	context.stroke();
-	context.fill();
-	context.closePath();
 
 	// Modified image after transformation
-	context.lineWidth = "2";
-	context.strokeStyle = graphcolor;
-	context.fillStyle = det >= 0 ? fillcolor : flipfillcolor;
+	if (cshape !== "random") {
+		context.lineWidth = "2";
+		context.strokeStyle = graphcolor;
+		context.fillStyle = det >= 0 ? fillcolor : flipfillcolor;
 
-	context.beginPath();
+		context.beginPath();
 
-	let p1 = MatrixVectorProd(transMat, shapes[cshape].orig[0]); // transform the 1st coord of original image
+		let p1 = MatrixVectorProd(transMat, shapes[cshape].orig[0]); // transform the 1st coord of original image
 
-	context.moveTo(cx + p1[0] * grid.scale, cy - p1[1] * grid.scale);
-	for (let i = 1; i < shapes[cshape].orig.length; i++) {
-		let p = MatrixVectorProd(transMat, shapes[cshape].orig[i]); // transform subsequent coord
-		context.lineTo(cx + p[0] * grid.scale, cy - p[1] * grid.scale);
+		context.moveTo(cx + p1[0] * grid.scale, cy - p1[1] * grid.scale);
+		for (let i = 1; i < shapes[cshape].orig.length; i++) {
+			let p = MatrixVectorProd(transMat, shapes[cshape].orig[i]); // transform subsequent coord
+			context.lineTo(cx + p[0] * grid.scale, cy - p[1] * grid.scale);
+		}
+		context.lineTo(cx + p1[0] * grid.scale, cy - p1[1] * grid.scale);
+		context.lineJoin = "round";
+		context.stroke();
+		context.fill();
+		context.closePath();
+	} else {
+		// if shape is "random"
+		let pointSize = 3;
+		context.fillStyle = '#228B22';
+		let x, y;
+		for (var i=0; i < shapes[cshape].orig.length; i++) {
+			let p = MatrixVectorProd(transMat, shapes[cshape].orig[i]); // transform subsequent coord
+			x = cx + p[0] * grid.scale;
+			y = cy - p[1] * grid.scale;
+			context.beginPath();
+			context.arc(x, y, pointSize, 0, Math.PI * 2, true);
+			context.fill();
+		}
 	}
-	context.lineTo(cx + p1[0] * grid.scale, cy - p1[1] * grid.scale);
-	context.lineJoin = "round";
-	context.stroke();
-	context.fill();
-	context.closePath();
 }
 
 // Initialize grid and plot
@@ -169,7 +193,6 @@ addDrag(canvas, drawF); // listen to mouse movements
 reScale(grid.scale, drawF); // update plots (REDUNDANT; because addDrag uses `reScale()`)
 
 function resetCanvas() {
-
 	var canvas = document.getElementById("canvas");
 	wd = document.getElementById("canvasdiv").offsetWidth;
 	ht = 0.7 * wd;
@@ -198,7 +221,9 @@ function resetCanvas() {
 	var slider = document.getElementById("scaleSlider");
 	slider.value = grid.scale;
 
-	cshape = "star";
+	// Update random samples
+	shapes['random'].orig = multivariate_normal(n_samples);
+	
 	transMat = [
 		[1, 0],
 		[0, 1],
@@ -222,10 +247,14 @@ function resetCanvas() {
 	document.getElementById("vsheerFactor").value = 1;
 	document.getElementById("xproject").value = 1;
 
-	// Reset shape
-	document.getElementById("defaultShape").checked = true;
+	// Reset showGrid option
+	showGrid = false;
+	checkbox = document.getElementById("showGrid");
+	checkbox.checked = false;
+	// drawGrid();
+	// document.getElementById("defaultShape").checked = true;
 
-	newMatrix()
+	newMatrix();
 	reScale(grid.scale, drawF);
 }
 
@@ -270,7 +299,8 @@ var drag = false,
 function addCustom() {
 	// Draw custom shape
 	//
-	// THIS FUNCTION IS INCOMPLETE!!
+	// ---------- THIS FUNCTION IS INCOMPLETE!! ----------
+	//
 	// - Due to mouse movement, it couldn't easily fixed (2020-04-25)
 	//
 	canvas = document.getElementById("canvas");
@@ -329,19 +359,44 @@ function addCustom() {
 			context.closePath();
 
 			shapes.custom = customShape;
-			cshape = 'custom'; // the appended last array element
+			cshape = "custom"; // the appended last array element
 			// reScale(grid.scale, drawF);
 		},
 		false
 	);
+}
 
-	
+function multivariate_normal(n_samples) {
+	// Generate samples from 2D multivariate normal distribution
+	// See: https://stackoverflow.com/a/36481059
+	if (!n_samples) n_samples = 10;
+
+	// let scale = 2.0; // default
+	let scale = 3.0;
+	let u = 0,
+		v = 0;
+	// while (u === 0) u = Math.random(); //Converting [0,1) to (0,1)
+	// while (v === 0) v = Math.random();
+	let x, y;
+	let samples = [];
+	for (var i = 0; i < n_samples; i++) {
+		u = 1 - Math.random();
+		v = 1 - Math.random();
+		x = Math.sqrt(- scale * Math.log(u)) * Math.cos(scale * Math.PI * v);
+
+		u = 1 - Math.random();
+		v = 1 - Math.random();
+		y = Math.sqrt(- scale * Math.log(u)) * Math.cos(scale * Math.PI * v);
+
+		samples.push([x, y]);
+	}
+	return samples;
 }
 
 function newShape() {
 	// Update the new shape
 	cshape = document.querySelector('input[name="shapeOption"]:checked').value;
-	console.log(cshape);
+	console.log("Selected shape:", cshape);
 	reScale(grid.scale, drawF);
 }
 
@@ -354,11 +409,10 @@ document.querySelectorAll('input[name="matrixIn"]').forEach(function (element) {
 document
 	.querySelectorAll('input[name="shapeOption"]')
 	.forEach(function (element) {
-		if (element.value !== 'custom') {
+		if (element.value !== "custom") {
 			element.setAttribute("onchange", "newShape();");
 		}
 	});
-
 
 function newTransformMat(newtrans) {
 	compose = document.getElementById("compose").checked;

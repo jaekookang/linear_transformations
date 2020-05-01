@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Linear Transformations">
     <title>Linear Transformations</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="jquery-3.5.0.slim.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.5.0.slim.min.js"></script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="shortcut icon" href="https://integral-domain.org/lwilliams/includes/favicon2.ico" type="image/x-icon">
@@ -29,8 +29,7 @@
         </noscript>
         <div class="twoCol_3366">
             <div id="controlsDiv">
-            	<!--##################### First column #####################-->
-
+                <!--##################### First column #####################-->
                 <!------------------ 1. Transformation matrix ------------------>
                 <fieldset>
                     <legend class="controlLegend">Matrix of Transformation</legend>
@@ -54,32 +53,33 @@
                     Zoom: <input type="range" min="10" max="300" value="30" class="slider" id="scaleSlider"><br>
                     Shape: <input type="radio" name="shapeOption" value="square" onchange="newShape();"> Square
                     <input type="radio" name="shapeOption" value="house" onchange="newShape();"> House
-                    <input type="radio" name="shapeOption" value="star"  onchange="newShape();" checked id="defaultShape"> Star
-                    <!-- TODO <input type="radio" name="shapeOption" value="custom" onchange="addCustom();"> Custom <br> -->
+                    <input type="radio" name="shapeOption" value="star" onchange="newShape();" checked id="defaultShape"> Star
+                    <input type="radio" name="shapeOption" value="random" onchange="newShape();"> Random <br>
                     <div style="text-align: center">
-	                    <button class="appButton" style="width:100px" onclick="resetCanvas()">Reset</button>
-	                </div>
-	                <div>
-	                	<input type="checkbox" id="fixgrid" name="" checked><label>Fix grids</label>
-	                </div>
+                        <button class="appButton" style="width:100px" onclick="resetCanvas()">Reset</button>
+                    </div>
                 </fieldset>
                 <br>
                 <!------------------ 3. Transformations ------------------------->
                 <fieldset>
-                	<legend class="controlLegend">Transformations</legend>
-                	<input type="checkbox" id="compose">
-                	 Compose Transformations
-                	<br>
-                	<div id="transformlist">
-                		<button class="appButton" style="width:50px; padding:0px 3px" onclick="rotate()">Rotate</button> by an angle of <input class="appInput" type="number" name="standard" id="rotateAngle" value="0" style="width:40px;display:inline" oninput="rotate()"> degrees
-                		<br>
-                		<button class="appButton" style="width:50px; padding:0px 3px" onclick="newTransformMat([[1,0],[0,-1]])">Reflect</button> across the <i>x</i>-axis
-                		<br>
-                		<button class="appButton" style="width:50px; padding:0px 3px" onclick="newTransformMat([[-1,0],[0,1]])">Reflect</button> across the <i>y</i>-axis
-                		<br>
-                		<button class="appButton" style="width:50px; padding:0px 3px" onclick="vhscale()">Scale</button> in both directions by a factor of <input class="appInput" type="number" name="standard" id="scaleFactor" value="2" step="0.1" style="width:40px;display:inline" oninput="vhscale()">
-                		<br>
-                		<button class="appButton" style="width:50px; padding:0px 3px" onclick="hstretch()">Stretch</button> horizontally by a factor of <input class="appInput" type="number" name="standard" id="hstretchFactor" value="2" step="0.1" style="width:40px;display:inline" oninput="hstretch()">
+                    <legend class="controlLegend">Transformations</legend>
+                    <div>
+                        <input type="checkbox" id="showGrid"><label>Show grids</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="compose"><label>Compose Transformations</label>
+                    </div>
+                    <br>
+                    <div id="transformlist">
+                        <button class="appButton" style="width:50px; padding:0px 3px" onclick="rotate()">Rotate</button> by an angle of <input class="appInput" type="number" name="standard" id="rotateAngle" value="0" style="width:40px;display:inline" oninput="rotate()"> degrees
+                        <br>
+                        <button class="appButton" style="width:50px; padding:0px 3px" onclick="newTransformMat([[1,0],[0,-1]])">Reflect</button> across the <i>x</i>-axis
+                        <br>
+                        <button class="appButton" style="width:50px; padding:0px 3px" onclick="newTransformMat([[-1,0],[0,1]])">Reflect</button> across the <i>y</i>-axis
+                        <br>
+                        <button class="appButton" style="width:50px; padding:0px 3px" onclick="vhscale()">Scale</button> in both directions by a factor of <input class="appInput" type="number" name="standard" id="scaleFactor" value="2" step="0.1" style="width:40px;display:inline" oninput="vhscale()">
+                        <br>
+                        <button class="appButton" style="width:50px; padding:0px 3px" onclick="hstretch()">Stretch</button> horizontally by a factor of <input class="appInput" type="number" name="standard" id="hstretchFactor" value="2" step="0.1" style="width:40px;display:inline" oninput="hstretch()">
                         <br>
                         <button class="appButton" style="width:50px; padding:0px 3px" onclick="vstretch()">Stretch</button> vertically by a factor of <input class="appInput" type="number" name="standard" id="vstretchFactor" value="2" step="0.1" style="width:40px;display:inline" oninput="vstretch()">
                         <br>
@@ -88,17 +88,16 @@
                         <button class="appButton" style="width:50px; padding:0px 3px" onclick="vsheer()">Shear</button> vertically by a factor of <input class="appInput" type="number" name="standard" id="vsheerFactor" value="1" step="0.1" style="width:40px;display:inline" oninput="vsheer()">
                         <br>
                         <button class="appButton" style="width:50px; padding:0px 3px" onclick="projection()">Project</button> onto the line through ( <input class="appInput" type="number" name="standard" id="xproject" value="1" style="width:40px;display:inline">, <input class="appInput" type="number" name="standard" id="yproject" value="1" style="width:40px;display:inline"> )
-                	</div>
+                    </div>
                 </fieldset>
                 <br>
             </div>
-
             <!--##################### Second column #####################-->
             <fieldset>
                 <legend class="controlLegend">Transformation</legend>
-                <span class="note" id="detOut">Determinant: 1</span>
+                <span class="note" id="detOut">Determinant: 1.000</span>
                 <br>
-                <span class="note" id="propOut">☑ Invertible &nbsp; &nbsp; ☑ Orientation Preserving &nbsp; &nbsp; ☑ Area Preserving </span>
+                <span class="note" id="propOut">☑ Invertible&nbsp; &nbsp; ☑ Orientation Preserving&nbsp; &nbsp; ☑ Area Preserving</span>
                 <br>
                 <div id="canvasdiv" style="width:100%">
                     <!-- <canvas id="canvas" class="center unselectable" style="background: white; width: 769px; height: 538.3px;" width="1538" height="1076"></canvas> -->
@@ -109,11 +108,11 @@
         <br>
         <br>
         <div class="info">
-        	Original website: <a href="https://integral-domain.org/lwilliams/Applets/algebra/linearTransformations.php" target="_blank">Link</a>
+            Original website: <a href="https://integral-domain.org/lwilliams/Applets/algebra/linearTransformations.php" target="_blank">Link</a>
         </div>
-        <script src="mathLib.js"></script>
-        <script src="canvasGridConstruction.js"></script>
-        <script src="linearTransformations.js"></script>
+        <script src="js/mathLib.js"></script>
+        <script src="js/canvasGridConstruction.js"></script>
+        <script src="js/linearTransformations.js"></script>
     </div>
 </body>
 

@@ -76,6 +76,15 @@ var reScale = function (r, oncomplete) {
 
 /* GRIDLINES */
 
+var checkbox = document.getElementById("showGrid");
+var showGrid = checkbox.checked;
+checkbox.onclick = function () {
+	// This checks if "Show grids" check box is checked or not
+	showGrid = this.checked;
+	drawGrid();
+	drawF();
+};
+
 var drawGrid = function () {
 	context.clearRect(0, 0, canvas.width, canvas.height);
 
@@ -189,7 +198,7 @@ var drawGrid = function () {
 		}
 
 		// Draw transformed grids
-		if (!fixgrid) {
+		if (showGrid) {
 			let dash = 2;
 			let transGridColor = graphcolor;
 			let x1, x2;
