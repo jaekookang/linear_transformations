@@ -199,8 +199,9 @@ var drawGrid = function () {
 
 		// Draw transformed grids
 		if (showGrid) {
-			let dash = 2;
+			let dash;
 			let transGridColor = graphcolor;
+			context.lineWidth = 0.5;
 			let x1, x2;
 			for (let i = minxgrid * 2 - 1; i <= maxxgrid * 2 + 1; i += inc) {
 				context.beginPath();
