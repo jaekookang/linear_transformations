@@ -65,7 +65,7 @@
 			"file": "js/canvasGridConstruction.js",
 			"settings":
 			{
-				"buffer_size": 8479,
+				"buffer_size": 8503,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -450,8 +450,8 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 262.0,
-						"translation.y": 872.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -874,8 +874,8 @@
 						"selection":
 						[
 							[
-								6710,
-								6710
+								899,
+								908
 							]
 						],
 						"settings":
@@ -885,7 +885,7 @@
 							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
 						},
 						"translation.x": 0.0,
-						"translation.y": 5034.0,
+						"translation.y": 461.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -897,15 +897,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8479,
+						"buffer_size": 8503,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1706,
-								1714
+								4687,
+								4687
 							]
 						],
 						"settings":
@@ -915,7 +915,7 @@
 							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4271.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1235,7 +1235,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1862.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
