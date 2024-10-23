@@ -8,3 +8,6 @@ This is an interactive webapp for visualizing basic linear transformations. Base
 # See
 - For applets: [https://integral-domain.org/lwilliams/Applets/index.php](https://integral-domain.org/lwilliams/Applets/index.php)
 - For linear transformations: [https://integral-domain.org/lwilliams/Applets/algebra/linearTransformations.php](https://integral-domain.org/lwilliams/Applets/algebra/linearTransformations.php)
+
+---
+- 2024-10-23 jkang npm package reset, deployed using netlify
