@@ -1,5 +1,7 @@
 # Linear Transformations
 
+![preview](public/preview.gif)
+
 ## Link: [https://linear-transformations.netlify.app//](https://linear-transformations.netlify.app/)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7bdf6862-d28a-4618-a34e-cf27b386043f/deploy-status)](https://app.netlify.com/sites/linear-transformations/deploys)
 
