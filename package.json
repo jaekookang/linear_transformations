@@ -1,19 +1,17 @@
 {
-  "name": "linear-algebra-app",
-  "description": "App Description",
+  "name": "linear-transformations-vite",
+  "private": true,
   "version": "0.0.0",
-  "devDependencies": {
-    "@eslint/js": "^9.13.0",
-    "eslint": "^9.13.0",
-    "globals": "^15.11.0",
-    "live-server": "^1.2.2",
-    "prettier": "^3.3.3"
-  },
+  "type": "module",
   "scripts": {
-    "start": "live-server src --port=8080",
-    "build": "cp -r src/* dist/"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.9"
   },
   "dependencies": {
-    "braces": "^3.0.3"
+    "jquery": "^3.7.1"
   }
 }

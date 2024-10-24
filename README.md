@@ -10,4 +10,9 @@ This is an interactive webapp for visualizing basic linear transformations. Base
 - For linear transformations: [https://integral-domain.org/lwilliams/Applets/algebra/linearTransformations.php](https://integral-domain.org/lwilliams/Applets/algebra/linearTransformations.php)
 
 ---
-- 2024-10-23 jkang npm package reset, deployed using netlify
+- 2020-05-01 jkang first created
+- 2024-10-24 
+    - heroku app no longer supported
+    - npm package reset
+    - bundled by Vite
+    - deployed via netlify
